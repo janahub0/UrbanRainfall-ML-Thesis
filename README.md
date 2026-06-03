@@ -29,33 +29,61 @@ Singapore, Tokyo, London, and New York — across 102 experiments in three phase
 ## Repository Structure
 
 UrbanRainfall-ML-Thesis/
+
 │
+
 │
+
 ├── Code/
-│   ├── Notebooks/                # Within-city evaluation scripts
+
+│   ├── Notebooks/     # Within-city evaluation scripts
+
 │   │   ├── Single city
+
 │   │   ├── cross-city
+
 │   │   ├── data exploration
+
 │   │   ├── feature engineering
+
 │   │   └── data cleaning
+
 │  
+
 │
+
 ├── Results/
+
 │   ├── tables.txt               # All numerical results and statistical tests
+
 │   ├── cross_city_results.csv   # Cross-city AUC results table
+
 │   ├── week15_results.csv       # Multi-city results table
+
 │   └── figures/                 # All generated plots (PNG)
+
 │       ├── heatmap_A_Full_RF.png
+
 │       ├── heatmap_B_Full_XGB.png
+
 │       ├── heatmap_B_NoLags_XGB.png
+
 │       ├── auc_drop_barchart.png
+
 │       ├── lcz_urban_benefit_Q1.png
+
 │       ├── rainfall_memory_benefit_Q2.png
+
 │       ├── grouped_bar_all_models_pairs.png
+
 │       ├── roc_curves_best_pairs.png
+
 │       ├── density_vs_auc_drop_Q3.png
+
 │       └── week15_*.png
+
 │
+
 └── README.md
 
 ---
