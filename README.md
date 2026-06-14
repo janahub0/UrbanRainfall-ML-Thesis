@@ -114,9 +114,10 @@ pip install pandas numpy scikit-learn xgboost scipy matplotlib seaborn joblib
 ---
 
 ## Data Sources
-- **ERA5** — Copernicus Climate Change Service (weather data)
+- **CHIRPS** — Climate Hazards Center, UCSB (daily rainfall)
 - **OpenStreetMap** — Building footprints and urban structure
 - **WUDAPT** — Local Climate Zone classifications
+- **NOAA** — airport weather stations (temperature, pressure, wind)
 
 ---
 
